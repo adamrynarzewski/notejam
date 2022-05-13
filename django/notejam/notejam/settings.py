@@ -14,12 +14,12 @@ MANAGERS = ADMINS
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'notejam.db',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': '',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'notejam',
+        'USER': os.environ["DB_USER"],
+        'PASSWORD': os.environ["DB_PWD"],,
+        'HOST': os.environ["DB_SOCKET"],
+        'PORT': '5432',
     }
 }
 
