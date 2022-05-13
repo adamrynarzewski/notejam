@@ -7,7 +7,7 @@ ALLOWED_HOSTS = []
 PROJECT_DIR = "{}/../".format(os.path.dirname(__file__))
 
 ADMINS = (
-    ('Sergey Komar', 'komarserjio@gmail.com'),
+    ('Sergey Komar', 'placeholder@gmail.com'),
 )
 
 MANAGERS = ADMINS
