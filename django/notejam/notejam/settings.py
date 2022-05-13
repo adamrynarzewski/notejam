@@ -18,7 +18,7 @@ DATABASES = {
         'NAME': 'notejam',
         'USER': os.environ["DB_USER"],
         'PASSWORD': os.environ["DB_PWD"],,
-        'HOST': os.environ["DB_SOCKET"],
+        'HOST': os.environ["DB_HOST"],
         'PORT': '5432',
     }
 }
